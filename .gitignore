@@ -1,0 +1,5 @@
+#IDE
+.idea
+
+# macos
+.DS_Store
