@@ -10,6 +10,7 @@ body {
 body, html, main {
     height: 100%;
     overflow: hidden;
+    font-family: 'Bebas Neue', system-ui;
 }
 
 html {
@@ -24,8 +25,11 @@ main {
     padding: 0.1vw;
 }
 
+.no-select {
+    user-select: none;
+}
+
 h1 {
-    font-family: 'Bebas Neue', system-ui;
     font-size: 8vw;
     color: #ffacac;
     margin: 3vh 0;
